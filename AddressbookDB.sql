@@ -39,8 +39,12 @@ select * from Addressbook Where city = 'chapra';
 select count(*) from addressbook Where city = 'chapra'; 
 select count(*) from addressbook Where state = 'jharkhand'; 
 -------------------------------------------------------------------  UC8 --------------------------------------------------------------
-select * from addressbook where firstName like 's%'
+select * from addressbook where firstName like 's%';
 
-
+------------------------------------------------------------------- UC9 ----------------------------------------------------------------
+alter table addressbook add Type varchar(55);
+update addressbook set type = 'friends' where firstName = 'shubham';
+ update addressbook set type = 'friends' where firstName = 'rahul';
+select * from addressbook;
 
 
