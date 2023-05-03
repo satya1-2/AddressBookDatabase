@@ -35,7 +35,9 @@ select * from Addressbook Where city = 'chapra';
  UPDATE addressbook SET state ='westbangle' where firstName ='shubham'; 
  select * from addressbook;
  select * from Addressbook Where state = 'jharkhand';
- 
+------------------------------------------------------------------------ UC7 ---------------------------------------------------------
+select count(*) from addressbook Where city = 'chapra'; 
+select count(*) from addressbook Where state = 'jharkhand'; 
 
 
 
