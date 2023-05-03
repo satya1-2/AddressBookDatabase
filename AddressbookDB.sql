@@ -30,6 +30,14 @@ delete from addressbook where firstName='kundan';
 delete from addressbook where firstName='satya';
 delete from addressbook where firstName='yadav';
 select * from addressbook;
+--------------------------------------------------------------------------- UC6 -------------------------------------------------------
+select * from Addressbook Where city = 'chapra';
+ UPDATE addressbook SET state ='westbangle' where firstName ='shubham'; 
+ select * from addressbook;
+ select * from Addressbook Where state = 'jharkhand';
+ 
+
+
 
 
 
