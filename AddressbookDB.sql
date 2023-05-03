@@ -25,6 +25,11 @@ select * from addressbook;
 ---------------------------------------------------------------- UC4 --------------------------------------------------------------
  UPDATE addressbook SET state ='westbangle' where firstName ='rahul'; 
 select * from addressbook;
+--------------------------------------------------------------- UC5 ---------------------------------------------------------------------
+delete from addressbook where firstName='kundan';
+delete from addressbook where firstName='satya';
+delete from addressbook where firstName='yadav';
+select * from addressbook;
 
 
 
