@@ -47,4 +47,5 @@ update addressbook set type = 'friends' where firstName = 'shubham';
  update addressbook set type = 'friends' where firstName = 'rahul';
 select * from addressbook;
 
-
+-------------------------------------------------- UC10 --------------------------------------------------------------------------------
+select count(*) from addressbook where type = 'friends';
