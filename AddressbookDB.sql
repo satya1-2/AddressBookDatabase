@@ -22,6 +22,9 @@ values('satya','yadav','gorakhpur','bhatparRani','uttarpradesh' ,273702,34567823
 
 select * from addressbook;
 
+---------------------------------------------------------------- UC4 --------------------------------------------------------------
+ UPDATE addressbook SET state ='westbangle' where firstName ='rahul'; 
+select * from addressbook;
 
 
 
