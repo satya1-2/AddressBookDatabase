@@ -38,7 +38,8 @@ select * from Addressbook Where city = 'chapra';
 ------------------------------------------------------------------------ UC7 ---------------------------------------------------------
 select count(*) from addressbook Where city = 'chapra'; 
 select count(*) from addressbook Where state = 'jharkhand'; 
-
+-------------------------------------------------------------------  UC8 --------------------------------------------------------------
+select * from addressbook where firstName like 's%'
 
 
 
